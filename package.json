@@ -1,5 +1,5 @@
 {
-  "name": "sap-adt-mcp-server",
+  "name": "SAMURAI",
   "version": "1.0.0",
   "description": "S.A.M.U.R.A.I. (SAP ADT MCP Unified Remote ABAP Interface) - An open-source MCP server that gives AI coding assistants (Antigravity, Cursor, Kiro, Claude, Windsurf, Cline) direct read, write, test, and activation access to ABAP objects via SAP ADT REST APIs.",
   "type": "module",
