@@ -1,0 +1,37 @@
+{
+  "mcpServers": {
+    "sap-adt": {
+      "command": "node",
+      "args": ["sap-adt-mcp-server/dist/index.js"],
+      "env": {
+        "SAP_HOST": "http://your-sap-server:8000",
+        "SAP_CLIENT": "100",
+        "SAP_USERNAME": "DEVELOPER",
+        "SAP_PASSWORD": "your-password",
+        "SAP_LANGUAGE": "EN"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "test_connection",
+        "search_objects",
+        "read_object_source",
+        "read_object_structure",
+        "read_cds_source",
+        "read_behavior_definition",
+        "read_service_binding",
+        "read_function_module",
+        "read_program",
+        "read_table_definition",
+        "read_data_element",
+        "read_access_control",
+        "read_metadata_extension",
+        "read_class_includes",
+        "list_package_contents",
+        "list_transports",
+        "where_used",
+        "check_syntax",
+        "get_code_completion"
+      ]
+    }
+  }
+}
